@@ -15,7 +15,7 @@ CREATE TABLE Projects (
 INSERT INTO Employees VALUES
 (1, 'Shreya', 'IT', 50000, '2021-06-10'),
 (2, 'Sukanya', 'HR', 45000, '2020-05-12'),
-(3, 'Anju', 'IT', 70000, '2022-01-20'),
+(3, 'Anju Sajeev', 'IT', 70000, '2022-01-20'),
 (4, 'Sneha', 'Finance', 65000, '2021-03-18');
 
 INSERT INTO Projects VALUES
@@ -81,3 +81,5 @@ SELECT
     Salary,
     PERCENT_RANK() OVER(ORDER BY Salary) AS SalaryPercentRank
 FROM Employees;
+
+
