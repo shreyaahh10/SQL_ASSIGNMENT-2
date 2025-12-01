@@ -13,9 +13,9 @@ CREATE TABLE Projects (
     EndTime DATETIME
 );
 INSERT INTO Employees VALUES
-(1, 'Amit', 'IT', 50000, '2021-06-10'),
-(2, 'Priya', 'HR', 45000, '2020-05-12'),
-(3, 'Karan', 'IT', 70000, '2022-01-20'),
+(1, 'Shreya', 'IT', 50000, '2021-06-10'),
+(2, 'Sukanya', 'HR', 45000, '2020-05-12'),
+(3, 'Anju', 'IT', 70000, '2022-01-20'),
 (4, 'Sneha', 'Finance', 65000, '2021-03-18');
 
 INSERT INTO Projects VALUES
